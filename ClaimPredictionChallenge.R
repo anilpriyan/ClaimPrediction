@@ -60,10 +60,6 @@
                              filter(Calendar_Year == 2007))
   rm(train_set_amt_cat)
   
-  # Use the saved files if memory limits  
-  # claim_data_2005 <- read.csv("claim_data_2005.csv")
-  # claim_data_2006 <- read.csv("claim_data_2006.csv")
-  # claim_data_2007 <- read.csv("claim_data_2007.csv")
   glimpse(claim_data_2005)
 #
 #
